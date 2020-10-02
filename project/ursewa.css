@@ -1,4 +1,7 @@
-
+@import url('https://fonts.googleapis.com/css?family=Acme' );
+body{
+    background-color: black;
+}
 #header {
 display:flex;
 }
@@ -13,6 +16,10 @@ max-height:100%;
 max-width:100%;
 margin:2px;
 padding:2px;
+}
+
+h3{
+    font-family: 'Acme';
 }
 #box2 {
 flex-grow:2;
@@ -54,6 +61,7 @@ text-decoration:none;
 padding:11px;
 color:white;
 margin:0px;
+font-family: 'Acme';
 }
 
 #nav ul li a:hover {
@@ -62,10 +70,12 @@ color:black;
 }
 #box2 h1 {
 font-size:400%;
+font-family: 'Acme';
 }
  #box2 h3 {
 color:red;
 font-size:150%;
+font-family: 'Acme';
 }
 
 #sidebar
@@ -88,11 +98,12 @@ margin:10px;
 #content1
 {
 margin:15px;
-background-color:lightgrey;
+background-color:#f0f0f0;
 text-align:center;
 flex-grow:1;
 flex-shrink:1;
 border:1px solid black;
+
 }
 
 #content1 img 
@@ -111,13 +122,21 @@ width:100px;
 margin:auto;
 margin-bottom:10px;
 padding:5px;
-border: 2px red solid;
+border: 3px black solid;
+font-family: 'Acme';
+
+}
+
+.button a{
+    text-decoration: none;
+    color: black;
 }
 
 .button:hover
 {
-background-color:yellow;
-color:red;
+background-color:#f0f0f0;
+color:black;
+text-decoration: black;
 }
 
 .button:visited
@@ -129,7 +148,7 @@ color:white;
 #content2
 {
 margin:15px;
-background-color:lightgrey;
+background-color:#f0f0f0;
 text-align:center;
 flex-grow:1;
 flex-shrink:1;

@@ -3,6 +3,8 @@
 <head>
 <title> Urसेवा </title>
 <link rel="stylesheet" type="text/css" href="ursewa.css">
+<meta charset="UTF-8">
+<link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
 </head>
 <body>
 <div id="header">
@@ -33,7 +35,7 @@
 <div class="button"><a href="Sform.html" target="_blank"> REGISTER NOW</a> </div>
 </div>
 <div id="content2">
-<h3> DO YOU WANT TO PROVIDE A SERVICE?</h3>
+<h3 style="font: Acme;"> DO YOU WANT TO PROVIDE A SERVICE?</h3>
 <img src="provide.png" alt="service provider"><br>
 <p> Let people know the service you provide and act as a helping hand for people. Also let them know the areas where you deliver your services so that the required people can contact you as and when required.</p>
 <div class="button"> <a href="Pform.html" target="_blank">REGISTER NOW</a> </div>
@@ -41,6 +43,14 @@
 </div>
 <div id="footer">
 <h4>&copy Urसेवा web portal </h4>
+<script>
+    $(document).ready(function(){
+ $('button').hover(function(){
+    $(this).css("width", "70px");
+    $(this).css( "height" ,"30px");
+ });
+    });
+</script>
 </div>
 </body>
 </html>
