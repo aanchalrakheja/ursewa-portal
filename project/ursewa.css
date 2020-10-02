@@ -132,14 +132,14 @@ font-family: 'Acme';
     color: black;
 }
 
-.button:hover
+.button a:hover
 {
 background-color:#f0f0f0;
 color:black;
 text-decoration: black;
 }
 
-.button:visited
+.button a:visited
 {
 background-color:grey;
 color:white;
