@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Suggestion Page</title>
+	<link rel="stylesheet" href="suggest.css">
+</head>
+<body>
+<h2 align="center">YOUR FEEDBACK IS VALUABLE!</h2>
+
+<div id="page" style="border-radius: 25px;
+  font: 15px Arial, sans-serif;
+  font-weight: bold;
+  background: #FFFFFF;
+  padding: 20px; 
+  width: 600px;
+  height: 900px;
+  margin:0 auto">
+
+    
+   		<form>
+  			<label for="fname">Name:</label><br>
+  				<input type="text" id="fname" name="fname" placeholder="Enter Name"><br><br>
+	        <label for="quantity">Age:</label>
+	        	<input type="number" id="quantity" name="quantity" placeholder="Enter Age" min="19" max="60"><br><br>
+	        <label for="email">Enter your email:</label>
+	        	<input type="email" id="email" name="email" placeholder="Enter Email"><br><br>
+	        <label for="phone">Enter your phone number:</label>
+	        	<input type="tel" id="phone" name="phone" placeholder="Enter Number" pattern="[0-9]{10}"><br><br>	
+	        <label for="identity">Identify Yourself As:</label>
+	        <select id="identity" style="height:30px">
+	        	<option value="Service Provider" style="height:30px">Service Provider</option>
+	        	<option value="Service Availer" style="height:30px">Service Availer</option>
+	        </select><br><br><br><br>
+			<label for="text">Please Provide Your Suggestion:</label><br>
+	  			<input type="text" id="text" name="text" placeholder="Please enter the name of service provided or availed.Also please mention a small description of your experience of using our portal and how it made it better for you!" style="height:160px">
+			<br><br><br><br><br><br><br>
+	        	<input type="submit" value="Submit">
+		</form> 
+   
+	
+</div>
+</body>
+</html>
