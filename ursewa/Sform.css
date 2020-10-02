@@ -1,0 +1,27 @@
+body {
+ background-image: url("https://images.pexels.com/photos/2457278/pexels-photo-2457278.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+ background-color: #cccccc;
+}
+
+h2{
+	color: #FFFFFF;
+}
+
+ input{ font: 15px Arial, sans-serif;
+width: 100%;
+padding: 12px 0px;
+margin: 12px 0;
+}
+button {
+margin-left:250px;
+margin-right:250px;
+width:100px;
+height:50px;
+text-align:center;
+}
+button:hover
+{
+background-color:lime;
+color:white;
+}
+
