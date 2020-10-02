@@ -127,19 +127,19 @@ font-family: 'Acme';
 
 }
 
-.button a{
+.button {
     text-decoration: none;
     color: black;
 }
 
-.button a:hover
+.button:hover
 {
 background-color:#f0f0f0;
 color:black;
 text-decoration: black;
 }
 
-.button a:visited
+.button:visited
 {
 background-color:grey;
 color:white;
